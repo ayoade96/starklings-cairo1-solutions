@@ -2,7 +2,7 @@
 // Fill in the rest of the line that has code missing!
 // No hints, there's no tricks, just get used to typing these :)
 
-// I AM NOT DONE
+
 
 use debug::PrintTrait;
 
@@ -13,7 +13,7 @@ fn main() {
 
     let mut my_first_initial = 'C';
     if is_alphabetic(
-        ref my_first_initial
+        ref my_first_initial 
     ) {
         ('Alphabetical!').print();
     } else if is_numeric(
@@ -24,7 +24,7 @@ fn main() {
         ('Neither alphabetic nor numeric!').print();
     }
 
-    let // Finish this line like the example! What's your favorite short string?
+    let mut your_character = 'f'; // Finish this line like the example! What's your favorite short string?
     // Try a letter, try a number, try a special character, try a short string!
     if is_alphabetic(
         ref your_character
